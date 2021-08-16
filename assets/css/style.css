@@ -15,6 +15,11 @@
   -webkit-animation: glow 1.5s ease-in-out infinite alternate;
   -moz-animation: glow 1.5s ease-in-out infinite alternate;
   animation: glow 1.5s ease-in-out infinite alternate;
+
+
+
+
+  
 }
 
 @keyframes glow {
