@@ -25,10 +25,10 @@
 @keyframes glow {
   from {
     color: rgb(255, 254, 255);
-    text-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff,  0 0 90px #ffffff;
+    text-shadow: 0 0 10px #19025a, 0 0 40px #ffffff,  0 0 90px #ffffff;
   }
   to {
     color: rgb(255, 0, 0);
-    text-shadow: 0 0 20px #ffffff, 0 1 90px #fffafa;
+    text-shadow: 0 0 20px #ffffff, 0 1 90px #bd00b3;
   }
 }
