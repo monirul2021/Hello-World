@@ -37,3 +37,24 @@
   border-radius: 7%;
   
 }
+
+
+
+ 
+  a:visited {
+    color: red;
+    
+    
+  }
+  
+  a:hover {
+    color: rgb(76, 0, 255);
+    background-color: transparent;
+   
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    
+  }
