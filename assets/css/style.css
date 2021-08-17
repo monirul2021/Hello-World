@@ -32,3 +32,49 @@
     text-shadow: 0 0 20px #ffffff, 0 1 90px #bd00b3;
   }
 }
+
+
+
+
+/* start  table css */
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
+  text-align: left;
+  font-weight: bold;
+}
+thead th {
+  background-color: #55608f;
+}
+tbody tr:hover {
+  background-color: rgba(8, 250, 41, 0.3);
+}
+tbody td {
+  position: relative;
+  color: #5e0303;
+  font-weight: bold;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(83, 255, 77, 0.2);
+  z-index: -1;
+}
+
+/* end table css */
