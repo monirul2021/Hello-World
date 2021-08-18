@@ -1,21 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* h image  */
 @import url("https://fonts.googleapis.com/css?family=Codystar:300&display=swap");
 
 .neons {
@@ -24,7 +7,7 @@
 }
 
 .neons h1 {
-    background: black;
+    background: #55608F;
     padding: 10px;
     
   font-size: 2rem;
@@ -34,23 +17,20 @@
  
   animation: glow 1.5s ease-in-out infinite alternate;
 
-
-
-
   
 }
 
 @keyframes glow {
   from {
     color: rgb(255, 254, 255);
-    text-shadow: 0 0 10px #19025a, 0 0 40px #ffffff,  0 0 90px #ffffff;
+    text-shadow: 0 0 10px #19025a, 0 0 40px #a78484,  0 0 90px #ffffff;
   }
   to {
-    color: rgb(255, 0, 0);
-    text-shadow: 0 0 20px #ffffff, 0 1 90px #bd00b3;
+    color: rgb(100, 6, 6);
+    text-shadow: 0 0 20px #ffffff, 0 1 90px #18113f;
   }
 }
-
+/* end h img */
 
 
 
