@@ -180,9 +180,9 @@
     <p style="text-align: center;background-color: #55608F; margin-bottom: 0px;color: white; padding: 15px;">All right
       reserved by ugv 6th batch evening || Contact to CR Shovon Das
       Jai<a href="tel:+01798135793"><span style="color: red; padding-left: 5px;">Call</span></a> || Developed By Md.
-      Monirul Islam ।।<a href=""><img src="assets/up_squared_512px.png" width="50px"alt=""></a></p>
+      Monirul Islam ।। <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> </p>
   </footer>
-
+<!-- <a href=""><img src="assets/up_squared_512px.png" width="50px"alt=""></a> -->
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <!--no copy content-->
     <script>
@@ -201,8 +201,31 @@
   </script>
 
   <!--no copy content-->
+<!-- bac to top js -->
+<script>
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 
 
+<!-- end bac to top js -->
 
 
 
