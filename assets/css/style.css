@@ -1,3 +1,22 @@
+
+
+/* start no content copy  */
+* {
+  user-select: none;
+}
+*::selection {
+  background: none;
+}
+*::-moz-selection {
+  background: none;
+}
+/* end no content copy  */
+
+
+
+
+
+
 /* h */
 @import url("https://fonts.googleapis.com/css?family=Codystar:300&display=swap");
 
