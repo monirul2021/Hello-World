@@ -3,7 +3,7 @@
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 15px; /* Place the button at the bottom of the page */
-  right: 2px; /* Place the button 30px from the right */
+  right: 0px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -20,6 +20,8 @@
 }
 /* end  back to top css */
 
+
+
 /* start no content copy  */
 * {
   user-select: none;
@@ -31,9 +33,6 @@
   background: none;
 }
 /* end no content copy  */
-
-
-
 
 
 
