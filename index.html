@@ -18,9 +18,6 @@
   <!-- menu  core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-
-
-
   <style>
     .bd-placeholder-img {
       font-size: 1.125rem;
@@ -43,6 +40,39 @@
     }
   </style>
   <!-- end menu css -->
+
+
+
+
+
+
+  <link rel="stylesheet" href="ResponsiveSlides.js/responsiveslides.css">
+  <link rel="stylesheet" href= "ResponsiveSlides.js/demo/demo.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="ResponsiveSlides.js/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        maxwidth: 800,
+        speed: 800
+      });
+
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
 </head>
 
 <body>
@@ -55,7 +85,6 @@
     </div>
   </div>
   <!-- end baner -->
-
 
 
 
@@ -88,8 +117,17 @@
   <!-- end marque -->
 
 
+  <div id="wrapper">
+   
+    <!-- Slideshow 1 -->
+    <ul class="rslides" id="slider1">
+      <li><img src="file/ugv1.jpg" height="255px" alt=""></li>
+      <li><img src="file/ugv2.jpg" height="255px" alt=""></li>
+        </ul>
 
-  <!-- start slider -->
+  </div>
+
+  <!-- start slider 
   <div>
     <img draggable="false" src="file/ugv.jpg" alt="ugv" height="100%" width="100%" style="margin-bottom: 30px;">
   </div>
