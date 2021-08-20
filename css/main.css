@@ -24,6 +24,7 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 }
 .menu {
     height: 58px;
+    text-align: center;
 }
 .menu li {
     background: -moz-linear-gradient(#292929, #252525);
@@ -46,6 +47,7 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
 }
 .menu > li:first-child {
     border-radius: 5px 0 0;
+   
 }
 .menu a {
     border-left: 3px solid rgba(0, 0, 0, 0);
@@ -53,7 +55,7 @@ This stylesheet and the associated (x)html may be modified in any way to fit you
     display: block;
     font-family: 'Lucida Console';
     font-size: 18px;
-    line-height: 54px;
+    line-height: 30px;
     padding: 0 25px;
     text-decoration: none;
     text-transform: uppercase;
