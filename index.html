@@ -17,6 +17,7 @@
   <!-- end header css -->
   <!-- menu  core CSS -->
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css">
 
 
 
@@ -95,7 +96,22 @@
           <li class="nav-item"><a href="Tutorials.html" class="nav-link ">Tutorials</a></li>
           <li class="nav-item"><a href="ATTENDENCE.html" class="nav-link active">Attendance</a></li>
           <li class="nav-item"><a href="result.html" class="nav-link ">Result</a></li>
-         
+          <div class="dropdown">
+            <button style="background-color: #0D6EFD; color:white" class="btn btn-secondary dropdown-toggle"
+              type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Subject
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="ACCOUNTING.html">Accounting</a>
+              <a class="dropdown-item" href="C.ENG.html">C.ENG</a>
+              <a class="dropdown-item" href="MICROPROCESSOR.html">Microprocessor</a>
+              <a class="dropdown-item" href="SAD.html">P.Recognition</a>
+              <a class="dropdown-item" href="SAD-LAB.html">SAd</a>
+              <a class="dropdown-item" href="P. Recognition.html">SAD-Lab</a>
+              <a class="dropdown-item" href="T.COMPUTING.html">T.computing</a>
+
+            </div>
+          </div>
           <li class="nav-item"><a href="ACCOUNTING.html" class="nav-link  ">Accounting</a></li>
           <li class="nav-item"><a href="C.ENG.html" class="nav-link">C.eng</a></li>
           <li class="nav-item"><a href="MICROPROCESSOR.html" class="nav-link">Microprocessor</a></li>
@@ -107,6 +123,7 @@
             <span>Notification</span>
             <span class="badge">5</span>
           </a>
+
         </ul>
       </header>
     </div>
@@ -378,7 +395,35 @@
 
 
 
+  <!-- drop down js -->
+  <script>
+    $(document).ready(function () {
 
+      var timer;
+
+      $('.dropdown button, .dropdown-menu').hover(function () {
+
+        clearTimeout(timer);
+
+        $('.dropdown').addClass('open');
+
+      }, function () {
+
+        // Sets the timer variable to run the timeout delay
+        timer = setTimeout(function () {
+          // remove the class .open and hide the submenu
+          $('.dropdown').removeClass("open");
+        }, 300);
+
+      });
+
+      // document ready  
+    });
+  </script>
+  <script src=" https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src=" https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+
+  <!-- drop down js -->
 
 
 
