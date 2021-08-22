@@ -10,11 +10,32 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link id="appStyleSheet" rel="stylesheet" href="dist/styles/app.css">	
 	<script src="dist/scripts/calculator.js" defer></script>
+	<style>
+		    @media screen and (max-width: 1200px) {
+      .calc_wrapper {
+        width: 70%;
+      }
+    }
+
+    /* On screens that are 950px or less, set the width to 75% */
+    @media screen and (max-width: 950px) {
+      .calc_wrapper {
+        width: 75%;
+      }
+    }
+
+    /* On screens that are 600px or less, set the width to 90% */
+    @media screen and (max-width: 600px) {
+      .calc_wrapper {
+        width: 90%;
+      }
+    }
+	</style>
 </head>
 
 <body>
 
-	<div class="calc_wrapper">
+	<div class="calc_wrapper container" >
 		<a href="../index.html"><button>Home</button></a>
 		<div class="calbody mt-3">
 			<div class="caph">
