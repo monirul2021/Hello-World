@@ -139,7 +139,7 @@ select{
 
 .btn {
   width: 100%;
-  padding: 10px;
+  padding: 10px 40px;
   display: inline-block;
   margin: 0 auto;
   text-align: center;
@@ -165,7 +165,7 @@ select{
     </style>
 </head>
 <body>
-  <button >Back To Home</button>
+  <a href="index.html"><button>Home</button></a>
     <div class="calculator-box">
         <h1>GPA CALCULATOR</h1>
 <P>CSE six batch Evening
@@ -196,9 +196,9 @@ select{
         </div>
         <!-- <section class"btn">+ Add Course</section> -->
         <div class="btn" >
-            <button  onclick="addCourse()">+ Add Course</button>
-            <button onclick="removeCourse()">- Remove Course</button>
-            <button onclick="calcCgpa()">Calculate CGPA</button>
+            <button  onclick="addCourse()"><img src="assets/icon/add_480px.png" width="25px" height="25px" alt=""></button>
+            <button onclick="removeCourse()"><img src="assets/icon/minus_480px.png" width="25px" height="25px" alt=""></button>
+            <button onclick="calcCgpa()"><img src="assets/icon/equals_208px.png" width="25px" height="25px" alt=""></button>
         </div>
         <div class="lastp">
             <p id="cgpa-calc">Your GPA is:</p>
