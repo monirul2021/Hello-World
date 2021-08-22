@@ -3,39 +3,42 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CGPA Calculator</title>
 	<!-- CDN -->
 	<link rel="icon" href="dist/UI/fav.png" type="">
 	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link id="appStyleSheet" rel="stylesheet" href="dist/styles/app.css">	
+	<link id="appStyleSheet" rel="stylesheet" href="dist/styles/app.css">
 	<script src="dist/scripts/calculator.js" defer></script>
 	<style>
-		    @media screen and (max-width: 1200px) {
-      .calc_wrapper {
-        width: 70%;
-      }
-    }
+		@media screen and (max-width: 1200px) {
+			.calc_wrapper {
+				width: 70%;
+			}
+		}
 
-    /* On screens that are 950px or less, set the width to 75% */
-    @media screen and (max-width: 950px) {
-      .calc_wrapper {
-        width: 75%;
-      }
-    }
+		/* On screens that are 950px or less, set the width to 75% */
+		@media screen and (max-width: 950px) {
+			.calc_wrapper {
+				width: 75%;
+			}
+		}
 
-    /* On screens that are 600px or less, set the width to 90% */
-    @media screen and (max-width: 400px) {
-      .calc_wrapper {
-        width: 90%;
-      }
-    }
+		/* On screens that are 600px or less, set the width to 90% */
+		@media screen and (max-width: 400px) {
+			.calc_wrapper {
+				width: 90%;
+			}
+		}
 	</style>
 </head>
 
 <body>
 
-	<div class="calc_wrapper container" >
+	<div class="calc_wrapper container">
 		<a href="../index.html"><button>Home</button></a>
 		<div class="calbody mt-3">
 			<div class="caph">
@@ -55,7 +58,7 @@
 						<option value="8">8</option>
 						<option value="9">9</option>
 						<option value="10">10</option>
-						<option value="11">11</option>						
+						<option value="11">11</option>
 					</select>
 					<div class="col p-1 box1">
 						<div id="calform" class="text-center"></div>
@@ -68,12 +71,14 @@
 					</div>
 				</div>
 				<div class="row box2 box2_hidden">
-					<div class="col-4 d-flex justify-content-start align-items-center font-weight-bold credit_text"></div>
+					<div class="col-4 d-flex justify-content-start align-items-center font-weight-bold credit_text">
+					</div>
 					<div class="col-4">
 						<div id="resultbox" class="font-weight-bold"><span id="result" class="font-weight-bold"></span>
 						</div>
 					</div>
-					<div class="col-4 d-flex justify-content-end align-items-center font-weight-bold remarks_text"></div>
+					<div class="col-4 d-flex justify-content-end align-items-center font-weight-bold remarks_text">
+					</div>
 				</div>
 			</div>
 		</div>
@@ -86,7 +91,7 @@
 		</div>
 	</div>
 	<div class="lower-third">
-		
+
 		<div id="lower-close">
 			<span id="lower-close-btn">&times;</span>
 		</div>
