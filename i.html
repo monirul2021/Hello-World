@@ -60,10 +60,11 @@
 
           <li class="nav-item"><a href="subject.html" class="nav-link"><img src="assets/icon/book_480px.png "
                 width="40px" height="40px" alt=""></a></li>
+          
           <li class="nav-item"><a href="Tutorials.html" class="nav-link "><img src="assets/icon/classroom_480px.png"
                 width="40px" height="40px" alt=""></a></li>
-          <li class="nav-item"><a href="jobs.html" class="nav-link  "><img src="assets/icon/job_seeker_480px.png" width="40px"
-                height="40px" alt=""></a></li>
+          <li class="nav-item"><a href="jobs.html" class="nav-link  "><img src="assets/icon/job_seeker_480px.png"
+                width="40px" height="40px" alt=""></a></li>
           <li class="nav-item"><a href="#" class="nav-link  "><img src="assets/icon/freelancing.png" width="40px"
                 height="40px" alt=""></a></li>
           <li class="nav-item"><a href="result.html" class="nav-link  "><img src="assets/icon/gpa_calculator_480px.png"
@@ -85,37 +86,37 @@
   <hr>
 
   <div class="container">
-   <h1>Any Question ? Click the messenger Live Chat Below</h1>
+    <h1>Any Question ? Click the messenger Live Chat Below</h1>
 
   </div>
 
-<!-- Messenger Chat Plugin Code -->
-<div id="fb-root"></div>
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
 
-<!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
 
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "108276348241675");
-  chatbox.setAttribute("attribution", "biz_inbox");
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "108276348241675");
+    chatbox.setAttribute("attribution", "biz_inbox");
 
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v11.0'
-    });
-  };
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v11.0'
+      });
+    };
 
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
 
 
