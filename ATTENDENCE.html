@@ -92,18 +92,9 @@
     <script>
         var x = document.getElementById("myAudio");
 
-        function enableAutoplay() {
+        function disableAutoplay() {
             x.autoplay = true;
             x.load();
-        }
-
-        function disableAutoplay() {
-            x.autoplay = false;
-            x.load();
-        }
-
-        function checkAutoplay() {
-            alert(x.autoplay);
         }
     </script>
 
