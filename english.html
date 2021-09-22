@@ -20,6 +20,17 @@
 </head>
 
 <body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function() {
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+
     <div>
         <div>
             <div class="neons col-12">
