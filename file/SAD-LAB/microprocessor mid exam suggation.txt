@@ -1,0 +1,13 @@
+01. Defination of microprocessor .
+02. what is microcontroller ?
+03. what is Instruction ?
+
+04. Describe the computer diagram where the microprocessor is used as the CPU .
+
+05. What is programmable machine ? Why microprocessors are called programmable devices .
+
+06. what is Mnemonic ? difference between assemble language & machine language .
+
+07. How the microprocessor works
+
+08. Discuss microprocessor system with bus architecture
